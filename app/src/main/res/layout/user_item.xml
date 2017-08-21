@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="@drawable/bar">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/standard_portrait"/>
+
+    <TextView
+        android:id="@+id/user_username"
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/user_Follow"
+        android:background="@drawable/plus_user"
+        android:layout_width="28dp"
+        android:layout_height="28dp" />
+
+</LinearLayout>
